@@ -7,4 +7,120 @@
 
 a {
     text-decoration: none;
-    color: #fff;}
+}
+
+header{
+    display: flex;
+    height: 160px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 8rem;
+}
+
+.navbar ul li a{
+    font-size: 16px;
+    transition: 0.4s;
+    color: black;
+}
+
+.navbar ul li a:hover{
+    color: red;
+    transition: 0.4s;
+}
+
+
+
+
+/* ============ MAIN ============= */
+/* section 1 */
+main{
+    margin-top: 165px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/images/Header-image.png);
+    height: 620px;
+    gap: 2rem;
+    padding-top: 60px;
+}
+
+.intro h1{
+    font-size: 24px;
+    color: white;
+}
+
+.intro strong{
+    font-size: 58px;
+    text-align: center;
+    width: 780px;
+    line-height: 80px;
+    color: white;
+}
+
+.intro p{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+.intro div{
+    display: flex;
+}
+
+.intro div button{
+    width: 236px;
+    height: 68px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.playstore_btn{
+    background-color: #FA4A0C;
+}
+
+.intro div .appstore_btn{
+    background-color: inherit;
+    border: 1px white solid;
+}
+
+/* section 2 */
+
+.info_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_title div{
+    display: flex;
+    border-bottom: 0.1px rgb(198, 198, 198) solid;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    position: relative;
+}
+
+.info_title div img{
+    position: absolute;
+    top:20;
+}
+
+.info_title h3{
+    padding: 50px;
+}
